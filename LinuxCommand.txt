@@ -1,0 +1,59 @@
+ls -l	--list file with details	//ls -a
+
+ls -la --list all files with hidden files	//ls -al
+
+touch fileName		--creats a file
+
+cat > file 	--to write in a file and press Enter and crtl+z to stop
+
+mkdir directories 		--to make directories    mkdir Hello\ World		==Hello World(Directorie)
+	
+rm -r directories or rmdir directory/ 	--to remove directories
+
+rm filenames	 --to remove  files
+
+cat fileName	--to display file content
+
+cp > fileName	//to creat and write a file through terminal
+
+cp sourceFile DestinationFile  	--to copy file
+
+mv oldName newName 	--reame a file or directories
+
+echo "text content"	--act as print in Terminal
+
+sudo apt-get update // sudo apt-get upgrade
+
+hostname -I --gives IP addres
+
+hostname --hostname
+
+Ctrl+C can be used to stop any command in terminal safely
+If it doesn't stop with that then Ctrl+Z can be used to force stop
+
+sudo halt	--power off
+
+sudo reboot 	--reboot system
+
+ls --help	
+
+ls -LS > filename 	--save the content of that directory in filemane
+
+cd /	--root directory
+
+cd ..	--parent directory
+
+cat -b filemane // display file with line numbers
+
+grep string filename	--search string in a file
+
+grep -i string filename	--search string in a file case Insesitive
+
+sort fileNames 	--sorts file in Alphabetical Order
+
+sort -r fileNames 	--sorts in reverse Order
+
+cp -v sourceFile DestinationFile	--also gives Details about the process
+
+chmod +x filename 	--change access permissions	(x=executable r=readable w=writeable).
+
